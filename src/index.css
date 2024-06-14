@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'manrope';
+  src: url(./assets/fonts/Manrope-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'manrope';
+  src: url(./assets/fonts/Manrope-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'manrope';
+  src: url(./assets/fonts/Manrope-Bold.ttf);
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'manrope';
+}
+
+.container {
+  max-width: 1199px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+
+}
+
+
+
+
+.set {
+  position: sticky !important;
+
+  /* background-color: red; */
+}
+
+.prev-btn {
+  background-color: #fff;
+  /* border-radius: 50%; */
+  color: black;
+  width: 52px;
+  height: 52px;
+  border: 1px solid #D1D1D3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.next-btn {
+  background-color: #fff;
+  /* border-radius: 50%; */
+  color: black;
+  width: 52px;
+  height: 52px;
+  border: 1px solid #D1D1D3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {}
+
+
+
+
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: #f0eeee;
+  /* Изменение фона при наведении */
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px;
+  /* Изменение размера иконки */
+}
+
+/* Пример позиционирования кнопок */
+.swiper-button-next {
+  right: 10px;
+  /* Отступ справа */
+}
+
+.swiper-button-prev {
+  left: 10px;
+  /* Отступ слева */
+}
+
+
+
+
+
+
+.slide-content {
+  position: absolute;
+  z-index: 999;
+}
+
+.swiper-slide-image {
+  /* position: absolute; */
+}
+
+
+
+.button-container {
+  position: absolute;
+  z-index: 9999;
+  bottom: 40px;
+  right: 100px;
+}
