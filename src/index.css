@@ -122,3 +122,123 @@
   bottom: 40px;
   right: 100px;
 }
+
+
+.girdCarts {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.gridGoods {
+  grid-template-columns: repeat(auto-fit, minmax(278px, 1fr));
+}
+
+.sos {
+  margin: 0 auto;
+}
+
+
+.brandsGrid {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+
+
+
+@media(max-width: 1024px) {
+
+  .girdCarts {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+
+  .gridGoods {
+    grid-template-columns: repeat(auto-fit, minmax(278px, 1fr));
+  }
+
+  .brandsGrid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+ 
+}
+
+
+@media(max-width: 992px) {
+  .girdCarts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+
+  .brandsGrid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+  
+
+}
+
+
+@media (max-width: 768px) {
+ 
+  .girdCarts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(148px, 148px));
+    justify-content: center;
+  }
+
+  .gridGoods {
+    grid-template-columns: repeat(auto-fit, minmax(278px, 1fr));
+  }
+
+  .brandsGrid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+
+}
+
+@media(max-width: 767.99999px) {
+  .brandsGrid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+  
+}
+
+
+
+@media(max-width: 640px) {
+  .gridGoods {
+    grid-template-columns: repeat(auto-fit, minmax(148px, 1fr));
+  }
+
+  .brandsGrid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+
+ 
+}
+
+
+@media(max-width: 480px) {
+  .girdCarts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(148px, 148px));
+    justify-content: center;
+
+  }
+
+  .gridGoods {
+    grid-template-columns: repeat(auto-fit, minmax(148px, 1fr));
+  }
+  .brandsGrid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 100px));
+  }
+}
+
+@media(max-width: 320px) {
+  .girdCarts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(148px, 148px));
+  }
+
+  .brandsGrid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 100px));
+  }
+
+}

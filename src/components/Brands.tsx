@@ -11,34 +11,50 @@ function Brands() {
                     <ChevronRight color='#454950' />
                 </a>
             </div>
-            <div className='flex flex-wrap 2xl:gap-4 xl:gap-4 lg:gap-4 md:gap-4 sm:gap-4 xs:gap-2  justify-center mt-[18px]'>
-                <div className='border'>
-                    <img className='2xl:h-[124px] xl:h-[124px] lg:h-[124px] md:h-[124px] sm:h-[124px] xs:h-[68px] 2xl:w-[179px] xl:w-[179px] lg:w-[179px] md:w-[179px] sm:w-[179px] xs:w-[100px] object-cover' src={brandImg} alt="" />
+            <div className='grid brandsGrid 2xl:gap-4 xl:gap-4 lg:gap-4 md:gap-4 sm:gap-4 xs:gap-2  justify-center mt-[18px]'>
+                <div className='flex justify-center items-center border 2xl:h-[124px] xl:h-[124px] lg:h-[124px] md:h-[124px] sm:h-[124px] xs:h-[68px] 2xl:w-[179px] xl:w-[179px] lg:w-[179px] md:w-[179px] sm:w-[100px] xs:w-[100px]'>
+                    <img className='object-cover h-[60px] w-full' src={brandImg} alt="" />
                 </div>
-                <div className='border'>
-                    <img className='2xl:h-[124px] xl:h-[124px] lg:h-[124px] md:h-[124px] sm:h-[124px] xs:h-[68px] 2xl:w-[179px] xl:w-[179px] lg:w-[179px] md:w-[179px] sm:w-[179px] xs:w-[100px] object-cover' src={brandImg} alt="" />
+                <div className='flex justify-center items-center border 2xl:h-[124px] xl:h-[124px] lg:h-[124px] md:h-[124px] sm:h-[124px] xs:h-[68px] 2xl:w-[179px] xl:w-[179px] lg:w-[179px] md:w-[179px] sm:w-[100px] xs:w-[100px]'>
+                    <img className='object-cover h-[60px] w-full' src={brandImg} alt="" />
                 </div>
-                <div className='border'>
-                    <img className='2xl:h-[124px] xl:h-[124px] lg:h-[124px] md:h-[124px] sm:h-[124px] xs:h-[68px] 2xl:w-[179px] xl:w-[179px] lg:w-[179px] md:w-[179px] sm:w-[179px] xs:w-[100px] object-cover' src={brandImg} alt="" />
+                <div className='flex justify-center items-center border 2xl:h-[124px] xl:h-[124px] lg:h-[124px] md:h-[124px] sm:h-[124px] xs:h-[68px] 2xl:w-[179px] xl:w-[179px] lg:w-[179px] md:w-[179px] sm:w-[100px] xs:w-[100px]'>
+                    <img className='object-cover h-[60px] w-full' src={brandImg} alt="" />
                 </div>
-                <div className='border'>
-                    <img className='2xl:h-[124px] xl:h-[124px] lg:h-[124px] md:h-[124px] sm:h-[124px] xs:h-[68px] 2xl:w-[179px] xl:w-[179px] lg:w-[179px] md:w-[179px] sm:w-[179px] xs:w-[100px] object-cover' src={brandImg} alt="" />
+                <div className='flex justify-center items-center border 2xl:h-[124px] xl:h-[124px] lg:h-[124px] md:h-[124px] sm:h-[124px] xs:h-[68px] 2xl:w-[179px] xl:w-[179px] lg:w-[179px] md:w-[179px] sm:w-[100px] xs:w-[100px]'>
+                    <img className='object-cover h-[60px] w-full' src={brandImg} alt="" />
                 </div>
-                <div className='border'>
-                    <img className='2xl:h-[124px] xl:h-[124px] lg:h-[124px] md:h-[124px] sm:h-[124px] xs:h-[68px] 2xl:w-[179px] xl:w-[179px] lg:w-[179px] md:w-[179px] sm:w-[179px] xs:w-[100px] object-cover' src={brandImg} alt="" />
+                <div className='flex justify-center items-center border 2xl:h-[124px] xl:h-[124px] lg:h-[124px] md:h-[124px] sm:h-[124px] xs:h-[68px] 2xl:w-[179px] xl:w-[179px] lg:w-[179px] md:w-[179px] sm:w-[100px] xs:w-[100px]'>
+                    <img className='object-cover h-[60px] w-full' src={brandImg} alt="" />
                 </div>
-                <div className='border'>
-                    <img className='2xl:h-[124px] xl:h-[124px] lg:h-[124px] md:h-[124px] sm:h-[124px] xs:h-[68px] 2xl:w-[179px] xl:w-[179px] lg:w-[179px] md:w-[179px] sm:w-[179px] xs:w-[100px] object-cover' src={brandImg} alt="" />
+                <div className='flex justify-center items-center border 2xl:h-[124px] xl:h-[124px] lg:h-[124px] md:h-[124px] sm:h-[124px] xs:h-[68px] 2xl:w-[179px] xl:w-[179px] lg:w-[179px] md:w-[179px] sm:w-[100px] xs:w-[100px]'>
+                    <img className='object-cover h-[60px] w-full' src={brandImg} alt="" />
                 </div>
-                <div className='border'>
-                    <img className='2xl:h-[124px] xl:h-[124px] lg:h-[124px] md:h-[124px] sm:h-[124px] xs:h-[68px] 2xl:w-[179px] xl:w-[179px] lg:w-[179px] md:w-[179px] sm:w-[179px] xs:w-[100px] object-cover' src={brandImg} alt="" />
+                <div className='flex justify-center items-center border 2xl:h-[124px] xl:h-[124px] lg:h-[124px] md:h-[124px] sm:h-[124px] xs:h-[68px] 2xl:w-[179px] xl:w-[179px] lg:w-[179px] md:w-[179px] sm:w-[100px] xs:w-[100px]'>
+                    <img className='object-cover h-[60px] w-full' src={brandImg} alt="" />
                 </div>
-                <div className='border'>
-                    <img className='2xl:h-[124px] xl:h-[124px] lg:h-[124px] md:h-[124px] sm:h-[124px] xs:h-[68px] 2xl:w-[179px] xl:w-[179px] lg:w-[179px] md:w-[179px] sm:w-[179px] xs:w-[100px] object-cover' src={brandImg} alt="" />
+                <div className='flex justify-center items-center border 2xl:h-[124px] xl:h-[124px] lg:h-[124px] md:h-[124px] sm:h-[124px] xs:h-[68px] 2xl:w-[179px] xl:w-[179px] lg:w-[179px] md:w-[179px] sm:w-[100px] xs:w-[100px]'>
+                    <img className='object-cover h-[60px] w-full' src={brandImg} alt="" />
                 </div>
-                <div className='border'>
-                    <img className='2xl:h-[124px] xl:h-[124px] lg:h-[124px] md:h-[124px] sm:h-[124px] xs:h-[68px] 2xl:w-[179px] xl:w-[179px] lg:w-[179px] md:w-[179px] sm:w-[179px] xs:w-[100px] object-cover' src={brandImg} alt="" />
+                <div className='flex justify-center items-center border 2xl:h-[124px] xl:h-[124px] lg:h-[124px] md:h-[124px] sm:h-[124px] xs:h-[68px] 2xl:w-[179px] xl:w-[179px] lg:w-[179px] md:w-[179px] sm:w-[100px] xs:w-[100px]'>
+                    <img className='object-cover h-[60px] w-full' src={brandImg} alt="" />
                 </div>
+                <div className='flex justify-center items-center border 2xl:h-[124px] xl:h-[124px] lg:h-[124px] md:h-[124px] sm:h-[124px] xs:h-[68px] 2xl:w-[179px] xl:w-[179px] lg:w-[179px] md:w-[179px] sm:w-[100px] xs:w-[100px]'>
+                    <img className='object-cover h-[60px] w-full' src={brandImg} alt="" />
+                </div>
+                <div className='flex justify-center items-center border 2xl:h-[124px] xl:h-[124px] lg:h-[124px] md:h-[124px] sm:h-[124px] xs:h-[68px] 2xl:w-[179px] xl:w-[179px] lg:w-[179px] md:w-[179px] sm:w-[100px] xs:w-[100px]'>
+                    <img className='object-cover h-[60px] w-full' src={brandImg} alt="" />
+                </div>
+                <div className='flex justify-center items-center border 2xl:h-[124px] xl:h-[124px] lg:h-[124px] md:h-[124px] sm:h-[124px] xs:h-[68px] 2xl:w-[179px] xl:w-[179px] lg:w-[179px] md:w-[179px] sm:w-[100px] xs:w-[100px]'>
+                    <img className='object-cover h-[60px] w-full' src={brandImg} alt="" />
+                </div>
+                <div className='flex justify-center items-center border 2xl:h-[124px] xl:h-[124px] lg:h-[124px] md:h-[124px] sm:h-[124px] xs:h-[68px] 2xl:w-[179px] xl:w-[179px] lg:w-[179px] md:w-[179px] sm:w-[100px] xs:w-[100px]'>
+                    <img className='object-cover h-[60px] w-full' src={brandImg} alt="" />
+                </div>
+                <div className='flex justify-center items-center border 2xl:h-[124px] xl:h-[124px] lg:h-[124px] md:h-[124px] sm:h-[124px] xs:h-[68px] 2xl:w-[179px] xl:w-[179px] lg:w-[179px] md:w-[179px] sm:w-[100px] xs:w-[100px]'>
+                    <img className='object-cover h-[60px] w-full' src={brandImg} alt="" />
+                </div>
+                
                
                 
 

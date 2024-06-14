@@ -4,6 +4,9 @@ import Hero from "./components/Hero"
 import Categories from "./components/Categories"
 import Goods from "./components/Goods"
 import Brands from "./components/Brands"
+import Feedbacks from "./components/Feedbacks"
+import Footer from "./components/Footer"
+import About from "./components/About"
 
 
 
@@ -18,9 +21,11 @@ function App() {
       <Hero />
       <Categories />
       <Goods />
-      <Brands /> 
-      
-     
+      <Brands />
+      <Feedbacks />
+      <About />
+      <Footer />
+
     </>
   )
 }
